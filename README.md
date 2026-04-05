@@ -16,7 +16,7 @@
 
 An AI decision support system that combines a **deterministic symbolic constraint engine** with a **neural LLM backend** — grounded in real-world labor market and university data. This is not a chatbot that generates generic advice. It tracks your constraints, flags logical contradictions in your reasoning, retrieves actual salary and career outlook figures from the U.S. Bureau of Labor Statistics, fetches real tuition and earnings data from the U.S. Department of Education, and runs a structured multi-agent debate to surface the genuine tension in your decision.
 
-Built as a Master's capstone at **Texas A&M University – Corpus Christi** (Dept. of Computer Science), accompanied by an ACM-format research paper.
+
 
 ---
 
@@ -114,8 +114,6 @@ bls_ooh_chunks.jsonl    # BLS Occupational Outlook Handbook structured corpus
 ## Research
 
 **"Neuro-Symbolic Agentic Decision Support for Constraint-Aware Career Analysis"**  
-Texas A&M University – Corpus Christi · Dept. of Computer Science · 2025  
-Author: Sahith Reddy Vellenki
 
 The core academic contribution is the architecture pattern: a deterministic symbolic state as the ground truth layer that constrains and audits neural LLM reasoning, combined with authoritative external data retrieval to replace hallucinated figures with real numbers — making the system's conclusions traceable, grounded, and challengeable.
 
